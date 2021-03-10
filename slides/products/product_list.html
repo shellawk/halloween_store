@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="../../styles/normalize.css">
+	<link rel="stylesheet" href="../../styles/summary.css">
+	<title>Halloween_Store</title>
+	<meta name= "viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href="../../styles/slicknav.css">
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../../js/jquery.slicknav.min.js"></script>
+	<script type= "text/javascript">
+		$(document).ready(function(){
+			$('#nav_bar').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>
+</head>
+<body> 
+	<header>
+		<img src="../../images/pumpkin.gif" alt="pumpkin" id ="header_img">
+		<section>
+			<h2> The Halloween Store</h2>
+			<h3> For the little Goblin in all of us!</h3>
+		</section>
+	</header>
+	<nav id = "mobile_menu"></nav>
+	<nav id = "nav_bar">
+		<ul>
+			<li><a class = "current" href ="../../index.html" tabindex="0">Home</a></li>
+			<li><a href = "../../slides/products/product_list.html"> Product List</a></li>
+			<li><a href = "../../slides/personal/personal.html"> Personal</a></li>
+			<li><a href = "../../slides/decorations/index.html"> Decorating Ideas</a>
+			
+			</li>
+			<li><a href = "../../email.html"> Join Email </a></li>
+		</ul>
+	</nav>
+	<section>
+		<figure>
+			<figcaption>Product List</figcaption>
+			<table>
+				<thead>
+				<tr>
+					<th> Category</th>
+					<th> Description</th>
+					<th> Price</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th rowspan = 5> Props</th>
+						<td><a href = "cat.html">20" Deranged Cat</a></td>
+						<td> $19.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">Flying Bats</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">16" Ugly rat</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">20" Uglier rat</a></td>
+						<td> $19.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html"> Plastic skeleton</a></td>
+						<td> $12.50</td>
+					</tr>
+					<tr>
+						<th rowspan = 3> Costumes</th>
+						<td><a href = "coming_soon.html">Austin Powers</a></td>
+						<td> $79.50</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">Frankenstein</a></td>
+						<td> $49.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">Martian</a></td>
+						<td> $69.99</td>
+					</tr>
+					<tr>
+						<th rowspan = 3>Special Effects</th>
+						<td><a href = "coming_soon.html">Fog Machine</a></td>
+						<td> $34.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">Fog juice</a></td>
+						<td> $9.99</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html"> Mini Strobe Light</a></td>
+						<td> $14.99</td>
+					</tr>
+					<tr>
+						<th rowspan = 2> Masks</th>
+						<td><a href = "coming_soon.html">Freddy</a></td>
+						<td> $44.50</td>
+					</tr>
+					<tr>
+						<td><a href = "coming_soon.html">Darth Vader</a></td>
+						<td> $124.50</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure>
+	</section>
+	<aside id = "nav_vertical">
+			<ul>
+				<li><a href = "page1.html">Props</a></li>
+				<li><a href = "page2.html">Costumes</a></li>
+				<li><a href = "page3.html"> Special FX</a></li>
+				<li><a href = "page4.html">Masks</a></li>
+			</ul>
+	</aside>
+</body>
+<footer>
+	<p> &copy; 2016 Ben Murach</p>
+</footer>
+</html>

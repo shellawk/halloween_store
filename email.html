@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/email.css">
+	<title>Halloween_Store</title>
+</head>
+<body> 
+	<header>
+		<img src="images/pumpkin.gif" alt="pumpkin" id ="header_img">
+		<section>
+			<h2> The Halloween Store</h2>
+			<h3> For the little Goblin in all of us!</h3>
+		</section>
+	</header>
+	<nav id = "mobile_menu"></nav>
+	<nav id = "nav_bar">
+		<ul>
+			<li><a href ="index.html" tabindex="0">Home</a></li>
+			<li><a href = "slides/products/product_list.html"> Product List</a></li>
+			<li><a href = "slides/personal/personal.html"> Personal</a></li>
+			<li><a href = "slides/decorations/index.html"> Decorating Ideas</a>
+			<li><a href = "email.html" class = "current"> Join Email </a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>Please enter the following information:</h1>
+		<form name = "join_email" action="subscribe.html">
+			<p><label for="fname">First name: <input type = "text" name="first name" autofocus required id="fname"></label></p>
+			<p><label for="lname">Last name: <input type = "text" name="last name" required id="lname"></label></p>
+			<p><label for="email">Email: <input type = "text" name="email" required id="email"></label></p>
+			<p><label for="zip">Zip Code: <input type = "text" name="zip code" placeholder = "Optional but appreciated: 99999" 
+				pattern="\d{5}([\-]\d{4})?" title=" Must be 99999" id="zip"></label></p>
+			<p><input type = "submit" name="submit" value="Subscribe" id="button" src="subscribe.html"></p>
+		</form>
+	</section>
+	<aside id = "nav_vertical">
+			<ul>
+				<li><a href = "slides/products/page1.html">Props</a></li>
+				<li><a href = "slides/products/page2.html">Costumes</a></li>
+				<li><a href = "slides/products/page3.html"> Special FX</a></li>
+				<li><a href = "slides/products/page4.html">Masks</a></li>
+			</ul>
+	</aside>
+</body>
+<footer>
+	<p id="footer"> &copy; 2016 Ben Murach</p>
+</footer>
+</html>
